@@ -1,0 +1,7 @@
+Introducción a WordNet
+Fundamentos con NLTK: WordNet, es un recurso léxico con mucho uso en muchas tareas de procesamiento, pero ya no tanto por el estado actual del deep learning.🧠
+WordNet es una base de datos con carácter léxico para el idioma inglés. Se compone por conjuntos de sinónimos (synsets), cada uno expresando un concepto diferente. Diferentes synsets se relacionan por su relación conceptual semántica 🤯.
+Por ejemplo, un synset:
+Palabras → Carro, automovil, auto, coche
+Definición → Vehículo motorizado de cuatro ruedas, propulsado por un motor de combustión interna.
+Para relacionarse, existe una jerarquía en WordNet. Hay hiperónimos (mas general) y hipónimo (mas particular).👑

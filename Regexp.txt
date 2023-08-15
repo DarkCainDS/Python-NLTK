@@ -1,0 +1,7 @@
+pattern = r'''(?x)                  # Flag para iniciar el modo verbose
+              (?:[A-Z]\.)+            # Hace match con abreviaciones como U.S.A.
+              | \w+(?:-\w+)*         # Hace match con palabras que pueden tener un guión interno
+              | \$?\d+(?:\.\d+)?%?  # Hace match con dinero o porcentajes como $15.5 o 100%
+              | \.\.\.              # Hace match con puntos suspensivos
+              | [][.,;"'?():-_`]    # Hace match con signos de puntuación
+'''

@@ -1,0 +1,20 @@
+Glosario:
+Corpus lingüístico
+Un corpus lingüístico es un conjunto amplio y estructurado de ejemplos reales de uso de la lengua. Estos ejemplos pueden ser textos, o muestras orales.​ Un corpus lingüístico es un conjunto de textos relativamente grande, creado independientemente de sus posibles formas o usos.
+
+Token
+Un token es un conjunto de caracteres que representan texto. También podemos decir que el token es la unidad análisis de texto, así como un número es la unidad del análisis matemático. Es fácil para nosotros pensar que un token es igual a una palabra, sin embargo esto no es correcto, puesto que la “palabra” es un elemento del lenguaje que posee significado por sí misma, mientras que el token se supone es un elemento abstracto. Dependiendo de la tarea que estemos afrontando, el token puede ser alguna de las siguientes:
+
+Una sola palabra, como: “jóvenes”, “nivel” o “superior”,
+Un número, como: “1”, “0”, o “10”,
+Un solo caracter, como: “j”, “ó” o “v”,
+Un símbolo, como “¿”, “?” o “#”,
+Un conjunto de caracteres, como “nivel superior” o “escuela técnica”
+Tokenización
+La tokenización es un paso que divide cadenas de texto más largas en piezas más pequeñas o tokens. Los trozos de texto más grandes pueden ser convertidos en oraciones, las oraciones pueden ser tokenizadas en palabras, etc. El procesamiento adicional generalmente se realiza después de que una pieza de texto ha sido apropiadamente concatenada. La tokenización también se conoce como segmentación de texto o análisis léxico. A veces la segmentación se usa para referirse al desglose de un gran trozo de texto en partes más grandes que las palabras (por ejemplo, párrafos u oraciones), mientras que la tokenización se reserva para el proceso de desglose que se produce exclusivamente en palabras.
+
+Bibliografía:
+
+colaboradores de Wikipedia. (2020, 6 agosto). Corpus lingüístico. Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Corpus_lingüístico
+Introducción al análisis de texto. (2020, 16 agosto). 🌮 tacos de datos | Aprende visualización de datos en español. https://tacosdedatos.com/analisis-texto#:~:text=Un token es un conjunto,la unidad del análisis matemático.&text=Un conjunto de caracteres%2C como,superior” o “escuela técnica”
+Mayo, M. (2020, 12 marzo). Preprocesamiento de datos de texto: un tutorial en Python. Medium. https://medium.com/datos-y-ciencia/preprocesamiento-de-datos-de-texto-un-tutorial-en-python-5db5620f1767#:~:text=single curly braces.}-,Tokenización,ser tokenizadas en palabras%2C etc.

@@ -1,0 +1,24 @@
+# bettering tokens with nltk
+pattern = r'''(?x)                  # Flag para iniciar el modo verbose
+              (?:[A-Z]\.)+          # Hace match con abreviaciones como U.S.A.
+              | \w+(?:-\w+)*        # Hace match con palabras que pueden tener un guión interno
+              | \$?\d+(?:\.\d+)?%?  # Hace match con dinero o porcentajes como $15.5 o 100%
+              | \.\.\.              # Hace match con puntos suspensivos
+              | [][;"'?():-_`]      # Hace match con signos de puntuación
+'''
+tokens2 = nltk.regexp_tokenize(raw, pattern)
+print(tokens2[:50]) 
+
+
+
+************************************
+
+
+
+!pip install -q html2text
+import html2text
+to_text = html2text.html2text(html)
+print(to_text)
+
+tokens = re.findall('\w+', to_text)
+tokens[:50]
